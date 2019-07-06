@@ -6,10 +6,10 @@
     font-style: normal;
 }
 
-
 #weather{
   visibility: hidden;
 }
+
 /* General style properties */
 .default-bg{
   background: linear-gradient(rgb(188, 221, 242), rgb(89, 144, 216));
@@ -29,7 +29,7 @@ i {
 .navbar {
   min-height: 30px;
   height:60px;
-  font-size:1.7rem;
+  font-size:1.5rem;
   text-transform: uppercase;
 }
 
