@@ -21,8 +21,8 @@
     font-family: computer_says_no;
 }
 
-body{
-  padding-top:100px;
+header{
+  padding-top:30px;
 }
 
 i {
@@ -60,16 +60,17 @@ i {
 }
 
 
+
+
+/*  Margins */
+
 .btn-map {
   padding-left: 3vw;
   padding-right: 3vw;
 }
 
-
-/*  Margins */
-
 .title {
-  font-size: 8vh;
+  font-size: 10vh;
   margin-bottom: 10vh;
   margin-top:10vh;
   font-family: "Work Sans";
@@ -78,7 +79,8 @@ i {
 .search {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  justify-content: center
 }
 
 
