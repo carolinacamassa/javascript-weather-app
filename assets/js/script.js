@@ -16,7 +16,6 @@ searchInput.addEventListener("keyup", enterPressed);
 
 function enterPressed(event) {
   if (event.key === "Enter") {
-    $("#weather").css('visibility','visible').hide().fadeIn(900);
     addweatherData();
   }
 }
