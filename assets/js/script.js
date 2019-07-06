@@ -16,14 +16,12 @@ searchInput.addEventListener("keyup", enterPressed);
 
 function enterPressed(event) {
   if (event.key === "Enter") {
-
     addweatherData();
   }
 }
 
 function addweatherData() {
   $("#weather").css('visibility','visible').hide().fadeIn(900);
-
   getWeatherData().then(weatherData => {
     cityName.innerHTML = weatherData.name;
     temperature.innerHTML = parseInt(weatherData.main.temp - 273) + "°";
