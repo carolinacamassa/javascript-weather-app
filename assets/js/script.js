@@ -1,7 +1,7 @@
 // OpenWeather
 const API_KEY = "a762d82bf3b974b8623cb50a0bc41a7f";
 
-let searchButton = document.getElementById("search-btn");
+let searchButton= document.getElementById("search-btn");
 let searchInput = document.getElementById("search-input");
 let cityName = document.getElementById("city-name");
 let icon = document.getElementById("icon");
@@ -16,13 +16,13 @@ searchInput.addEventListener("keyup", enterPressed);
 
 function enterPressed(event) {
   if (event.key === "Enter") {
-    $("#weather").css('visibility','visible').hide().fadeIn(900);
+
     addweatherData();
   }
 }
 
 function addweatherData() {
-  $("#weather").fadeIn(900);
+  $("#weather").css('visibility','visible').hide().fadeIn(900);
 
   getWeatherData().then(weatherData => {
     cityName.innerHTML = weatherData.name;
