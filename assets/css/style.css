@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'computer_says_no';
+    src: url('webfont/computer_says_no.woff2') format('woff2'),
+         url('webfont/computer_says_no.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#weather{
+  visibility: hidden;
+}
+/* General style properties */
+.default-bg{
+  background: linear-gradient(rgb(188, 221, 242), rgb(89, 144, 216));
+}
+.light-bg{
+  background-color: #d7ecfc;
+}
+.navbar, footer{
+    font-family: computer_says_no;
+}
+
+i {
+  color: black;
+}
+
+/*  Navbar  */
+.navbar {
+  min-height: 30px;
+  height:60px;
+  font-size:1.7rem;
+  text-transform: uppercase;
+}
+
+
+/* Buttons */
+.btn-grad {
+  background-image: linear-gradient(to right, #FFAFBD , #ffc3a0, #FFAFBD );
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+
+  border-radius: 60px;
+  background-size: 300% 100%;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-grad:hover {
+  background-position: 100% 0 ;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+
+.btn-map {
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+
+/*  Margins */
+
+.title {
+  font-size: 4em;
+  margin-bottom: 5%;
+  margin-top:8%;
+  font-family: "Work Sans";
+}
+
+.search{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+#contact{
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+
+.card-weather{
+  margin-top:6%;
+  border: 0;
+  border-radius: 1rem;
+}
+
+.form-control{
+  width:70%;
+}
+
+/*  Footer */
+footer{
+  padding-top:1rem;
+  padding-bottom:1rem;
+
+  font-size: 1.4rem;
+}
+
+#heart{
+  font-size:1rem;
+}
+
+/* Weather backgrounds */
+.card-body{
+  background-color: white;
+}

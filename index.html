@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Weather Page</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Animate on Scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="home" class ="default-bg">
+
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-light light-bg navbar-expand-md fixed-top" id="mainNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://carolinacamassa.design">
+        <img src="/assets/img/icon.png" width="40" height="40" alt="Carolina Camassa">
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item nav-link"><a id="link-home" class="nav-link active" href="#">home</a></li>
+          <li class="nav-item nav-link"><a id="link-contact" class="nav-link" href="#contact">contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+<div class = "everything">
+  <!-- Header -->
+  <header>
+    <div class="container-fluid text-center">
+      <h1 class="title">what's the weather like in...</h1>
+    </div>
+    <!-- Input -->
+    <div class="container-fluid inputs">
+      <div class="row">
+
+        <div class="col-3"></div>
+        <!-- Center column -->
+        <div class=" col-6  search">
+          <input type="text" class="form-control" id="search-input" placeholder="Write the city name and press Enter">
+          <button class="btn btn-grad btn-map" id="search-btn">
+            <i id="search-btn" class="fa fa-search white"></i>
+          </button>
+        </div>
+
+        <!-- End of center column -->
+        <div class="col-3 "></div>
+      </div>
+    </div>
+
+
+  </header>
+
+  <!-- Meteo -->
+  <section id = "weather">
+
+
+  <div  class="container-fluid card-weather d-flex justify-content-center">
+    <div class="card text-center" style="width: 28rem;">
+      <div class="card-header city-name">
+        Today's weather <span id= "condition"></span>
+      </div>
+      <div class="card-body">
+        <h5 id="city-name" class="card-title"></h5>
+        <img src="" alt="" id="icon">
+        <button id="temp" class="btn btn-primary"></button>
+      </div>
+      <div id="humidity" class="card-footer text-muted">
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+
+
+  <!-- Contacts -->
+  <section id="contact" class="content-section text-center" data-aos="fade-in">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <h2></h2>
+          <p>Did you like this project? Feel free to let me know!</p>
+          <ul class="list-inline banner-social-buttons">
+            <li class="list-inline-item">
+              <button class="btn btn-light btn-lg btn-default" type="button">
+                <i class="fa fa-linkedin fa-fw black"></i>
+                <span class="network-name">Linkedin</span>
+              </button>
+            </li>
+            <li class="list-inline-item">
+              <button class="btn btn-light btn-lg btn-default" type="button">
+                <i class="fa fa-github fa-fw black"></i>
+                <span class="network-name">Github</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="map-clean"></div>
+</div>
+  <!-- Footer -->
+  <footer class = "light-bg">
+    <div class="container page-footer text-center">
+      <p class="text-center">Created with <i id="heart" class="fa fa-heart fa-xs"></i> by Carolina Camassa</p>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init();
+   </script>
+</body>
+
+</html>
