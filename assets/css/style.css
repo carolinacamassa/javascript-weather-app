@@ -69,20 +69,19 @@ i {
 /*  Margins etc.*/
 
 .btn-map {
-  padding-left: 3vw;
-  padding-right: 3vw;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 .title{
-    font-size: 8vh;
-
+    font-size: 7vh;
     margin-top: 5vh;
 
 }
 
 @media only screen and (min-width: 992px)  {
 .title{
-  font-size:12vh;
+  font-size:10vh;
   margin-bottom: 10vh;
   margin-top: 10vh;
 }
