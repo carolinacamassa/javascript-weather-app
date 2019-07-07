@@ -28,7 +28,7 @@
 }
 
 header{
-  padding-top:15vh;
+  padding-top:8vh;
 }
 
 i {
@@ -38,9 +38,10 @@ i {
 /*  Navbar  */
 .navbar {
   min-height: 30px;
-  height:60px;
+  height:50px;
   font-size:1.5rem;
   text-transform: uppercase;
+  align-items: center;
 }
 
 
@@ -75,8 +76,8 @@ i {
 }
 
 .title{
-    font-size: 10vh;
-    margin-bottom: 10vh;
+    font-size: 12vh;
+    margin-bottom: 8vh;
 }
 
 .search {
@@ -111,4 +112,11 @@ footer{
 
 #heart{
   font-size:1rem;
+}
+
+
+@media only screen and (max-width: 800px) {
+.title{
+  font-size:8vh;
+}
 }
