@@ -6,11 +6,17 @@
     font-style: normal;
 }
 
+/* General style properties */
+
+.title{
+  font-family: "Work Sans";
+}
+
 #weather{
   visibility: hidden;
 }
 
-/* General style properties */
+
 .default-bg{
   background: linear-gradient(rgb(188, 221, 242), rgb(89, 144, 216));
 }
@@ -61,18 +67,16 @@ i {
 
 
 
-
-/*  Margins */
+/*  Margins etc.*/
 
 .btn-map {
   padding-left: 3vw;
   padding-right: 3vw;
 }
 
-.title {
-  font-size: 10vh;
-  margin-bottom: 10vh;
-  font-family: "Work Sans";
+.title{
+    font-size: 10vh;
+    margin-bottom: 10vh;
 }
 
 .search {
@@ -107,9 +111,4 @@ footer{
 
 #heart{
   font-size:1rem;
-}
-
-/* Weather backgrounds */
-.card-body{
-  background-color: white;
 }
