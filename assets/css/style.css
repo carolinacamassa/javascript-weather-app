@@ -22,7 +22,7 @@
 }
 
 header{
-  padding-top:30px;
+  padding-top:15vh;
 }
 
 i {
@@ -72,7 +72,6 @@ i {
 .title {
   font-size: 10vh;
   margin-bottom: 10vh;
-  margin-top:10vh;
   font-family: "Work Sans";
 }
 
